@@ -1,0 +1,125 @@
+html {
+    position:relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0 0 100px 0;   
+    overflow-x: hidden;
+}
+
+ul a:hover{
+    text-decoration: underline;
+}
+
+.search{
+    width: 65%;
+}
+
+#subtitulo{
+    margin-top: 2%;
+    font-size: 30px;
+}
+
+
+
+div h2 {
+    border: 1px solid grey;
+    text-align: center;
+    background-color: #FDED00;
+    border-radius: 12px;
+    
+}
+
+
+
+.botao1 {
+    display: inline-block;
+    text-decoration: none;
+    padding: 3px;
+    text-align: center;
+    color: black;
+    background-color: #FDED00;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 37%;
+    margin-bottom: 3%;
+}
+
+.botao2 {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px;
+    text-align: right;
+    color: black;
+    background-color: #FDED00;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 18%;
+}
+.botao1, .botao2 {
+    font-size: 95%;
+}
+
+#descrição {
+    margin-bottom: 10px;
+}
+
+
+.card {
+    padding: 3%;
+    text-align: center;
+}
+
+.card img {
+    margin-bottom: 30%;
+}
+
+.card a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.card #preco {
+    color: blue;
+}
+
+
+.carousel-caption a {
+    display: block;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 4px;
+    border-radius: 30px;
+
+}
+
+
+
+footer {
+    background-color: #FDED00;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+footer a{
+    color: black;
+    padding: 2%;
+    text-decoration: dotted;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer i:hover{
+    text-decoration:underline;
+}
+
